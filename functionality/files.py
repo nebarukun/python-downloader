@@ -6,8 +6,6 @@ from urllib.parse import urlparse, urlsplit
 from datetime import datetime
 from requests_html import HTMLSession
 
-
-
 import os
 import sys
 import time
@@ -17,12 +15,9 @@ import tkinter as tk
 import urllib.request
 
 
-
 class FileDownloader(object):
 
-
   def __init__(self, directory_path):
-
 
     # FIELDS - DISPLAY DOWNLOAD INFORMATION - "AMOUNT OF AVAILABLE FILES" AND "AMOUNT OF DOWNLOADED FILES"
     self.display_total_amount_files_label = Label(self, width=12, text="Total:", fg="#000000", font=("Open Sans", 14), anchor=W)

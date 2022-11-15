@@ -6,8 +6,6 @@ from urllib.parse import urlparse, urlsplit
 from datetime import datetime
 from requests_html import HTMLSession
 
-
-
 import os
 import sys
 import time
@@ -17,12 +15,9 @@ import tkinter as tk
 import urllib.request
 
 
-
 class ImageDownloader(object):
 
-
   def __init__(self, directory_path):
-
 
     # FIELDS - DISPLAY DOWNLOAD INFORMATION - "AMOUNT OF AVAILABLE IMAGES" AND "AMOUNT OF DOWNLOADED IMAGES"
     self.display_total_amount_images_label = Label(self, width=12, text="Total:", fg="#000000", font=("Open Sans", 14), anchor=W)
@@ -39,8 +34,6 @@ class ImageDownloader(object):
 
     self.display_downloaded_line = ttk.Separator(self, orient='horizontal')
     self.display_downloaded_line.grid(row=11, column=0, columnspan=2, pady=10, padx=10, sticky=EW)
-
-
 
     # GET FIELD URL VALUE
     url = self.url_field.get()
@@ -66,7 +59,6 @@ class ImageDownloader(object):
     amount_of_images_downloaded_label = self.display_downloaded_amount_images_label
     amount_of_images_on_website = self.display_total_amount_images
     amount_of_images_downloaded = self.display_downloaded_amount_images
-
 
     # LOOP THROUGH ALL IMAGES
     for ids in range(len(get_img_tags)):
@@ -277,7 +269,6 @@ class ImageDownloader(object):
         # -----------------------------------------------------------
         # END CHECK
         # -----------------------------------------------------------
-
 
         if (ids == 0):
           amount_of_images_on_website['text'] = 0 # ADD VALUE 0 TO "TEXT"

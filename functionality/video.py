@@ -7,8 +7,6 @@ from datetime import datetime
 from requests_html import HTMLSession
 from pytube import YouTube
 
-
-
 import os
 import sys
 import time
@@ -18,9 +16,7 @@ import tkinter as tk
 import urllib.request
 
 
-
 class VideoDownloader(object):
-
 
   def __init__(self, directory_path):
 
@@ -32,7 +28,6 @@ class VideoDownloader(object):
 
     self.display_downloaded_line = ttk.Separator(self, orient='horizontal')
     self.display_downloaded_line.grid(row=11, column=0, columnspan=2, pady=10, padx=10, sticky=EW)
-
 
     url = self.url_field.get()
 

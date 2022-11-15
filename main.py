@@ -15,8 +15,6 @@ from urllib.parse import urlparse, urlsplit
 from datetime import datetime
 from requests_html import HTMLSession
 
-
-
 import os
 import sys
 import time
@@ -25,14 +23,10 @@ import webbrowser
 import tkinter as tk
 import urllib.request
 
-
-
 from functionality.images import *
 from functionality.links import *
 from functionality.files import *
 from functionality.video import *
-
-
 
 
 class MainWindow(tk.Frame):
@@ -97,7 +91,6 @@ class MainWindow(tk.Frame):
 
     self.about_info = Button(self, text="About", width=10, font=("Open Sans", 10), command=self.about_software)
     self.about_info.grid(row=14, column=1, pady=10, padx=10, sticky=E)
-
 
 
 
@@ -180,7 +173,6 @@ class MainWindow(tk.Frame):
 
 
 
-
   def create_download_folder(self):
     current_datetime = datetime.now()
     directory_datetime = current_datetime.strftime("Date_%m-%d-%Y_Time_%H-%M-%S")
@@ -213,12 +205,6 @@ class MainWindow(tk.Frame):
 
 
 
-
-
-
-
-
-
   def about_software(self):
     messagebox.showinfo(title="About", message='Version: 2.0.0\n\nDeveloper: nebaru\nWebsite: wdtools.org\nContact: hello@wdtools.org')
 
@@ -238,9 +224,6 @@ class MainWindow(tk.Frame):
   def close_window(self):
     root.quit()
     sys.exit(1)
-
-
-
 
 
 
