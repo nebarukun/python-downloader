@@ -1,14 +1,14 @@
 # Python · Downloader
 
-### Simple Python Downloader that allows you to download: images - files and anchors href (txt or array).
+### Simple Python Downloader that allows you to download: images, files, anchors hrefs (list or array) and YouTube videos.
 
 ## Description
 
-This software allows you to download: images - files and anchors href (txt or array).
+This software allows you to download: images, files, anchors hrefs (list or array) and YouTube videos.
 
-Maybe it will not work on all websites, yet. It's still under development so if you find a website in which it dosen't work, bugs or issues.
+Maybe it will not work on all websites, yet.
 
-Please let me know: hello@wdtools.org
+It's still under development so if you find a website in which it dosen't work or if you find any bugs, please let me know: hello@wdtools.org
 
 
 ## Getting Started
@@ -31,7 +31,7 @@ depending on your Python version and configuration.
 
 nebaru - hello@wdtools.org
 
-Project - [GitHub](https://github.com/nebarukun/python-downloader)
+Project - [Bitbucket](https://bitbucket.org/nebaru/python_downloader/src/master/)
 
 Website - [WDTools.org](https://wdtools.org/)
 
