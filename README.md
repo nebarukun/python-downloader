@@ -31,7 +31,7 @@ depending on your Python version and configuration.
 
 nebaru - hello@wdtools.org
 
-Project - [Bitbucket](https://bitbucket.org/nebaru/python_downloader/src/master/)
+Project - [GitHub](https://github.com/nebarukun/python-downloader)
 
 Website - [WDTools.org](https://wdtools.org/)
 
