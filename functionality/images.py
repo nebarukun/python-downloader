@@ -119,7 +119,7 @@ class ImageDownloader(object):
             # print("Get Code ", urllib.request.urlopen(get_data_src).getcode())
 
           except: # IF FILE COULDN'T BE DOWNLOADED - TRY NEXT ONE
-            print("Error - File has not been downloaded! ", urllib.request.urlopen(get_data_src).getcode())
+            print("Error - Image has not been downloaded! ", urllib.request.urlopen(get_data_src).getcode())
 
         else: # ELSE IS INTERNAL
 
@@ -148,7 +148,7 @@ class ImageDownloader(object):
             # print("Get Code ", urllib.request.urlopen(get_data_src).getcode())
 
           except: # IF FILE COULDN'T BE DOWNLOADED - TRY NEXT ONE
-            print("Error - File has not been downloaded! ", urllib.request.urlopen(get_data_src).getcode())
+            print("Error - Images has not been downloaded! ", urllib.request.urlopen(get_data_src).getcode())
 
         # -----------------------------------------------------------
         # END CHECK
@@ -175,7 +175,7 @@ class ImageDownloader(object):
 
         # IF ALL POSSIBLE IMAGES HAVE BEEN DOWNLOADED DISPLAY MESSAGE
         if (ids == (len(get_img_tags) - 1)):
-          messagebox.showinfo(title="Info!", message="ALL FILES HAVE BEEN DOWNLOADED")
+          messagebox.showinfo(title="Info!", message="All Images have been downloaded")
           amount_of_images_on_website_label.destroy()
           amount_of_images_downloaded_label.destroy()
           amount_of_images_on_website.destroy()
@@ -190,7 +190,7 @@ class ImageDownloader(object):
       elif (("base64") in file_name): # IMPORTANT - IF IMAGE FILE EQUALS "base64" SKIP IT
 
         if (ids == (len(get_img_tags) - 1)):
-          messagebox.showinfo(title="Info!", message="ALL FILES HAVE BEEN DOWNLOADED")
+          messagebox.showinfo(title="Info!", message="All Images have been downloaded")
           amount_of_images_on_website_label.destroy()
           amount_of_images_downloaded_label.destroy()
           amount_of_images_on_website.destroy()
@@ -264,7 +264,7 @@ class ImageDownloader(object):
             # print("Get Code ", urllib.request.urlopen(get_data_src).getcode())
 
           except: # IF FILE COULDN'T BE DOWNLOADED - TRY NEXT ONE
-            print("Error - File has not been downloaded! ", urllib.request.urlopen(get_data_src).getcode())
+            print("Error - Image has not been downloaded! ", urllib.request.urlopen(get_data_src).getcode())
 
         # -----------------------------------------------------------
         # END CHECK
@@ -290,7 +290,7 @@ class ImageDownloader(object):
 
         # IF FILE TYPE IS NOT AN IMAGE FILE TYPE - AND IT'S THE LAST FILE - DISPLAY MESSAGEBOX - ALL FILES HAVE BEEN DOWNLOADED
         if (ids == (len(get_img_tags) - 1)):
-          messagebox.showinfo(title="Info!", message="ALL FILES HAVE BEEN DOWNLOADED")
+          messagebox.showinfo(title="Info!", message="All Images have been downloaded")
           amount_of_images_on_website_label.destroy()
           amount_of_images_downloaded_label.destroy()
           amount_of_images_on_website.destroy()

@@ -106,7 +106,7 @@ class LinkDownloader(object):
 
         # IF ALL POSSIBLE IMAGES HAVE BEEN DOWNLOADED DISPLAY MESSAGE
         if (ids == (len(get_files_tags) - 1)):
-          messagebox.showinfo(title="Info!", message="ALL ANCHOR HAVE BEEN DOWNLOADED")
+          messagebox.showinfo(title="Info!", message="All Links have been downloaded")
           amount_of_anchor_on_website_label.destroy()
           amount_of_anchor_downloaded_label.destroy()
           amount_of_anchor_on_website.destroy()

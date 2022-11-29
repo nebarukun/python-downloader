@@ -149,7 +149,7 @@ class MainWindow(tk.Frame):
   def start_download(self):
 
     if (self.int_var_widget.get() == 0):
-      messagebox.showinfo(title="Warning!", message="Select what you want to download: Images or Links.")
+      messagebox.showinfo(title="Warning!", message="Select what you want to download: Images, Links, Files or YouTube Videos.")
 
     else:
 
@@ -192,15 +192,15 @@ class MainWindow(tk.Frame):
       print("Successfully created the directory %s " % create_download_folder)
 
       if (self.int_var_widget.get() == 1):
-
         ImageDownloader.__init__(self, create_download_folder)
 
       elif (self.int_var_widget.get() == 2):
-
         LinkDownloader.__init__(self, create_download_folder)
 
-      else:
+      elif (self.int_var_widget.get() == 3):
+        FileDownloader.__init__(self, create_download_folder)
 
+      elif (self.int_var_widget.get() == 4):
         VideoDownloader.__init__(self, create_download_folder)
 
 

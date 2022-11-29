@@ -182,7 +182,7 @@ class FileDownloader(object):
 
         # IF ALL POSSIBLE IMAGES HAVE BEEN DOWNLOADED DISPLAY MESSAGE
         if (ids == (len(get_files_tags) - 1)):
-          messagebox.showinfo(title="Info!", message="ALL FILES HAVE BEEN DOWNLOADED")
+          messagebox.showinfo(title="Info!", message="All Files have been Downloaded")
           amount_of_files_on_website_label.destroy()
           amount_of_files_downloaded_label.destroy()
           amount_of_files_on_website.destroy()
@@ -197,7 +197,7 @@ class FileDownloader(object):
       elif (("base64") in file_name): # IMPORTANT - IF IMAGE FILE EQUALS "base64" SKIP IT
 
         if (ids == (len(get_files_tags) - 1)):
-          messagebox.showinfo(title="Info!", message="ALL FILES HAVE BEEN DOWNLOADED")
+          messagebox.showinfo(title="Info!", message="All Files have been downloaded")
           amount_of_files_on_website_label.destroy()
           amount_of_files_downloaded_label.destroy()
           amount_of_files_on_website.destroy()
@@ -212,7 +212,7 @@ class FileDownloader(object):
       elif ((".html") in file_name): # IMPORTANT - IF FILE EQUALS "html" SKIP IT
 
         if (ids == (len(get_files_tags) - 1)):
-          messagebox.showinfo(title="Info!", message="ALL FILES HAVE BEEN DOWNLOADED")
+          messagebox.showinfo(title="Info!", message="All Files have been downloaded")
           amount_of_files_on_website_label.destroy()
           amount_of_files_downloaded_label.destroy()
           amount_of_files_on_website.destroy()
@@ -226,7 +226,7 @@ class FileDownloader(object):
       else:
 
         if (ids == (len(get_files_tags) - 1)):
-          messagebox.showinfo(title="Info!", message="ALL FILES HAVE BEEN DOWNLOADED")
+          messagebox.showinfo(title="Info!", message="All Files have been downloaded")
           amount_of_files_on_website_label.destroy()
           amount_of_files_downloaded_label.destroy()
           amount_of_files_on_website.destroy()
