@@ -17,15 +17,11 @@ It's still under development so if you find a website in which it dosen't work o
 
 * Download or Clone the Project
 * Enter with your Terminal the folder of the ```main.py``` file
-* Type following command in the terminal:
-```
-python3 main.py
-```
-or
-```
-python main.py
-```
-depending on your Python version and configuration.
+* Type following command in the terminal: ```python main.py``` or ```python3 main.py``` depending on your Python version and configuration.
+* You must have the necessary Python packages installed to use the ```Python · Downloader```.
+* To install the necessary packages use ```pip``` or ```pip3``` depending on your Python version and configuration.
+
+
 
 ## Authors
 
